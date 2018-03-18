@@ -1,0 +1,21 @@
+body {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  overflow: hidden;
+}
+
+
+header {
+  width:100vw
+}
+
+main {
+  flex: 2;
+  height: 100%
+}
+
+aside {
+  flex: 1;
+  height: 80vh;
+}

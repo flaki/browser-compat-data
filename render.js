@@ -52,7 +52,7 @@ function main() {
 
     const html = render(
         query,
-        bcd.renderers.mdnFeatureTable,
+        bcd.renderers.mdnCompatTable,
         {
             'query': query,
             'depth': depth,
